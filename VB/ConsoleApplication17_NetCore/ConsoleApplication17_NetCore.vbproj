@@ -1,18 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace></RootNamespace>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <RootNamespace />
   </PropertyGroup>
-
   <ItemGroup>
-    <Compile Include="..\ConsoleApplication17\Program.vb" Link="Program.vb" />
-    <Compile Include="..\ConsoleApplication17\XPAliasedMemberInfo.vb" Link="XPAliasedMemberInfo.vb" />
+    <Compile Include="..\ConsoleApplication17 - VB\Program.vb" Link="Program.vb" />
+    <Compile Include="..\ConsoleApplication17 - VB\XPAliasedMemberInfo.vb" Link="XPAliasedMemberInfo.vb" />
   </ItemGroup>
-  
   <ItemGroup>
     <PackageReference Include="DevExpress.Xpo" Version="19.2.7" />
   </ItemGroup>
-
 </Project>
